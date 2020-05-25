@@ -1,0 +1,21 @@
+
+Git 基本流程
+
+
+	//自行新增
+	mkdir 專案資料夾 && cd 專案資料夾 git init
+	(視情況加入.gitignore)
+	git status
+	git add .
+	git commit git remote add origin xxxxxxxx(遠端位置)
+	git pull origin master git push origin master
+
+
+	//取用遠端資料
+	git clone
+	cd 專案資料夾
+	git status
+	git add .
+	git commit
+	git pull origin master （若有衝突，解決後重新add -> commit） git push origin master
+
